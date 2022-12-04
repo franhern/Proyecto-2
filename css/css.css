@@ -19,7 +19,7 @@ body{
 
 }
 
-/* Header  */ 
+/* Header*/ 
 
 
 
@@ -105,4 +105,75 @@ text-decoration: underline;
     text-align: center;
     border-radius: 8px;
     padding: 10px 20px;
+    position:absolute;
+    right: 50%;
+    top: 30%;
+
+}
+
+
+/*--------------- Footer ---------------*/
+footer{
+    background: rgb(0, 0, 0);
+    height: auto;
+    width: auto;
+    color: rgba(255, 255, 255, 0.685);
+    margin: auto;
+    overflow: hidden;
+    padding: 70px;
+}
+
+.class-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    background: black;
+    border-bottom: 1px solid rgb(255, 255, 255);   
+}
+
+.class-foo{
+    text-align: center;
+    background:black ;
+}
+
+.class-foo p{
+    background: black;
+
+}
+
+.class-foo h4{
+    background: black;
+}
+
+.class-foo-email{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 50px;
+    background: black;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+
+.foo-email {
+    display: table-cell;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.foo-email h4{
+    background: black;
+}
+
+.foo-email input{
+    background: rgb(156, 156, 156);
+    border: none;
+    width: 80%;
+
 }

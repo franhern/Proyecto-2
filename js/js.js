@@ -14,3 +14,6 @@ function pay(){
     console.log(product,price);
     window.alert(products.join(",\n"));
 }
+
+
+//a
